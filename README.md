@@ -21,7 +21,7 @@ A widget which keeps your FCM token in sync with your backend
 Install from [pub.dev](https://pub.dev/packages/fcm_token_sync):
 
 ```yaml
-fcm_token_sync: ^1.0.0
+fcm_token_sync: ^1.0.1
 ```
 
 ## ✅ Prerequisites
