@@ -7,7 +7,7 @@ A widget which keeps your FCM token in sync with your backend
 [![Pub Version](https://img.shields.io/pub/v/fcm_token_sync)](https://pub.dev/packages/fcm_token_sync)
 ![GitHub](https://img.shields.io/github/license/netsells/flutter-fcm-token-sync)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/netsells/flutter-fcm-token-sync/Test)
-[![Coverage Status](https://coveralls.io/repos/github/netsells/flutter-fcm-token-sync/badge.svg?branch=master)](https://coveralls.io/github/flutter-fcm-token-sync/passputter?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/netsells/flutter-fcm-token-sync/badge.svg?branch=master)](https://coveralls.io/github/flutter-fcm-token-sync?branch=master)
 
 ## ✨ Features
 
