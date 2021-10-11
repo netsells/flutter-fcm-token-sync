@@ -1,6 +1,6 @@
 name: fcm_token_sync
 description: A widget which keeps your FCM token in sync with your backend
-version: 1.0.1
+version: 1.0.2
 repository: https://github.com/netsells/flutter-fcm-token-sync
 
 environment:
