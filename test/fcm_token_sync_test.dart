@@ -1,13 +1,8 @@
-// 🐦 Flutter imports:
-import 'package:flutter/material.dart';
-
-// 📦 Package imports:
+import 'package:fcm_token_sync/fcm_token_sync.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-
-// 🌎 Project imports:
-import 'package:fcm_token_sync/fcm_token_sync.dart';
 
 class MockFirebaseMessaging extends Mock implements FirebaseMessaging {}
 
@@ -55,7 +50,7 @@ void main() {
 
       await expectLater(
         collectedTokens,
-        containsAllInOrder(['token1', 'token2', 'token3']),
+        containsAllInOrder(<String>['token1', 'token2', 'token3']),
       );
     },
   );

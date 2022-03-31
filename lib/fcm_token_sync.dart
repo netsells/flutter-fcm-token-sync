@@ -1,13 +1,9 @@
 library fcm_token_sync;
 
-// 🎯 Dart imports:
 import 'dart:async';
 
-// 🐦 Flutter imports:
-import 'package:flutter/material.dart';
-
-// 📦 Package imports:
 import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:flutter/material.dart';
 
 /// Widget which calls a callback each time the current FCM token is changed.
 ///
