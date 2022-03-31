@@ -22,9 +22,6 @@ jobs:
       - name: Run static analysis
         run: flutter analyze .
 
-      - name: Check imports
-        run: flutter pub run import_sorter:main --exit-if-changed
-
       - name: Run tests
         run: flutter test --coverage --test-randomize-ordering-seed random
 
