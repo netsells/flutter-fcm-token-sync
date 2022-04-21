@@ -1,6 +1,6 @@
 name: fcm_token_sync
 description: A widget which keeps your FCM token in sync with your backend
-version: 1.0.3
+version: 1.0.4
 repository: https://github.com/netsells/flutter-fcm-token-sync
 
 environment:
@@ -8,7 +8,7 @@ environment:
   flutter: ">=2.0.0"
 
 dependencies:
-  firebase_messaging: ^11.2.11
+  firebase_messaging: ^11.2.0
   flutter:
     sdk: flutter
 
